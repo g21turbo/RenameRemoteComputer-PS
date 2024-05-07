@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.*?>
+
+<Pane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="275.0" prefWidth="400.0" xmlns="http://javafx.com/javafx/17.0.2-ea" xmlns:fx="http://javafx.com/fxml/1">
+   <children>
+      <Button fx:id="renameButton" layoutX="300.0" layoutY="49.0" mnemonicParsing="false" prefHeight="62.0" prefWidth="69.0" text="Rename" />
+      <Button fx:id="pingButton" layoutX="300.0" layoutY="138.0" mnemonicParsing="false" prefHeight="62.0" prefWidth="69.0" text="Ping" />
+      <TextField fx:id="currentName" layoutX="130.0" layoutY="49.0" prefHeight="25.0" prefWidth="145.0" />
+      <TextField fx:id="newName" layoutX="130.0" layoutY="84.0" prefHeight="25.0" prefWidth="145.0" />
+      <TextField fx:id="username" layoutX="130.0" layoutY="138.0" prefHeight="25.0" prefWidth="145.0" />
+      <TextField fx:id="password" layoutX="130.0" layoutY="173.0" prefHeight="25.0" prefWidth="145.0" />
+      <Label layoutX="47.0" layoutY="53.0" text="Current Name:" />
+      <Label layoutX="46.0" layoutY="88.0" text="New Name:" />
+      <Label layoutX="47.0" layoutY="142.0" text="Username: " />
+      <Label layoutX="47.0" layoutY="177.0" text="Password:  " />
+      <TextField fx:id="rebootDelay" layoutX="130.0" layoutY="217.0" prefHeight="25.0" prefWidth="51.0" />
+      <Label layoutX="47.0" layoutY="221.0" text="Reboot delay:  " />
+   </children>
+</Pane>
