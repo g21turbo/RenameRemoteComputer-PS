@@ -16,9 +16,6 @@ public class RenameController {
     private TextField newName;
 
     @FXML
-    private TextField username;
-
-    @FXML
     private TextField password;
 
     @FXML
@@ -76,6 +73,29 @@ public class RenameController {
         }
 
     }
+
+    @FXML
+    private void pingComputer() {
+        // Get the input value from the text field
+        String computerName = currentName.getText();
+
+        try {
+            // Build the ping command
+            String[] command = {"cmd", "/c", "start", "ping", "-t", currentName.getText()};
+
+            // Execute the command
+            ProcessBuilder processBuilder = new ProcessBuilder(command);
+            processBuilder.start();
+
+        } catch (IOException e) {
+            e.printStackTrace();
+            // Handle exceptions here
+        }
+    }
+
+
+
+
 
 
 }
