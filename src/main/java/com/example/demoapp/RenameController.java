@@ -35,6 +35,7 @@ public class RenameController {
 
     }
 
+    @FXML
     private void renameComputer() {
 
         // Get the input values from the text fields
