@@ -16,7 +16,7 @@ public class HelloApplication extends Application {
         Scene scene = new Scene(fxmlLoader.load(), 375, 195);
         stage.setTitle("Rename Remote Computer");
         stage.setScene(scene);
-        // test
+        // tes
 
         stage.show();
 
